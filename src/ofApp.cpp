@@ -9,7 +9,7 @@ void ofApp::setup(){
     //we can now get back a list of devices.
     //	vector<ofVideoDevice> devices = vidGrabber0.listDevices();
 	
-    vidGrabber0.setDeviceID(1);
+    vidGrabber0.setDeviceID(0);
 	vidGrabber0.setDesiredFrameRate(30);
 	vidGrabber0.initGrabber(camWidth,camHeight);
 
